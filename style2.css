@@ -99,6 +99,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    list-style: none;
 }
 .nav__list .nav__link{
     color: #fffa;
