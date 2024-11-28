@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SERVITECH</title>
+	<link rel="icon" type="image/x-icon" href="SERVITECH.jpg">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="querie.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oxanium&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/4c9a1ab90e.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+	<div class="container">
+		<div class="navegacion">
+            <a href="index.html" class="link-logo">
+                <img src="SERVITECH.jpg" alt="Logo">
+            </a> 
+            <input type="checkbox" class="checkbox" id="open-nav">
+            <label for="open-nav" class="header__open-nav"><i class="fa-solid fa-bars"></i></label>
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__ul-li">
+                        <a href="index.html" class="nav__ul-li-link">Inicio</a>
+                    </li>
+                    <li class="nav__ul-li">
+                        <a href="conocenos.html" class="nav__ul-li-link">Nosotros</a>
+                    </li>
+                    <li class="nav__ul-li">
+                        <a href="servicios.html" class="nav__ul-li-link">Productos</a>
+                    </li>
+                    <li class="nav__ul-li">
+                        <a href="formulario.html" class="nav__ul-li-link">Regístrate</a>
+                    </li>
+                    <li class="nav__ul-li">
+                        <a href="ayuda.pdf" class="nav__ul-li-link" target="blank">Ayuda</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="main">
+        	<section class="contenedor">
+        		<div class="cont__form">
+        			<h1 class="form__titulo">Regístrate</h1>
+        			<form class="form">
+        				<fieldset class="borde">
+							<legend class="borde__titulo">Datos Personales</legend>
+							<label class="descriccion"> Nombre<input class="input" type="text" required></label>
+							<label class="descriccion">Apellido<input  class="input" type="text" required></label>
+							<label class="descriccion">Edad<input  class="input" type="number" required=""></label>
+						</fieldset>
+						<fieldset class="borde">
+							<legend class="borde__titulo">Como Contactarte</legend>
+							<label class="descriccion">Correo Electronico<input  class="input" type="email" placeholder="ejemplo@gmail.com" required=""></label>
+							<label class="descriccion">Comentarios <textarea class="comentario" placeholder="Dejanos tu mensaje"></textarea></label>
+						</fieldset>
+						<div class="cont__btn">
+							<input class="btn" type="submit" name="boton" value="Enviar">
+                            <input class="btn" type="reset" name="limpiar" value="Limpiar">
+						</div>	
+        			</form>
+        		</div>
+        	</section>
+            <section class="contenedor">
+                <div class="cont-botones">
+                    <a href="servicios.html" class="link-botones">
+                        <div class="botones">
+                            <p>Atrás</p>
+                        </div>
+                    </a>
+                    <a href="index.html" class="link-botones">
+                        <div class="botones">
+                            <p>Inicio</p>
+                        </div>
+                    </a>
+                    <a href="ayuda.pdf" class="link-botones" target="blank">
+                        <div class="botones">
+                            <p>Ayuda</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <h2 class="titulo-contactanos">Contactanos</h2>
+            <ul class="contactanos">
+                <li>
+                    <a target="blank" href="https://www.facebook.com/profile.php?id=100076320221265">
+                        <img class="ico__img little" src="facebook.png">
+                    </a></li>
+                <li>
+                   <a target="blank"href="https://www.instagram.com/servitech_vzla?igsh=MWtpb2Rqamxvemw1ag=="> 
+                        <img class="ico__img little" src="insta.png">
+                    </a>
+                </li>
+                <li>
+                    <img class="ico__wha" src="whasat.png"></li>
+                <li class="numeros">
+                    <div>
+                        <p> +58-412-5231213</p>
+                        <p> +58-424-5373771</p>
+                    </div>
+                </li>
+            </ul>
+                <h2 class="titulo-final"> Derechos reservados.</h2>
+        </footer>
+	</div>
+</body>
+</html>
